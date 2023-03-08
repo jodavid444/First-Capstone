@@ -123,7 +123,7 @@ const speakers = {
     } else {
       cardSection.classList.remove('active');
       mobileDisplayBtn.innerHTML = ' MORE <i class="fa-solid fa-caret-down"></i>';
-      showMore = true
+      showMore = true;
     }
   });
   
