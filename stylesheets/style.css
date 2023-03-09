@@ -36,6 +36,7 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+
   /* background-color: white; */
 }
 
@@ -50,7 +51,6 @@ li {
 .mobile-links {
   transition: 0.7s ease;
   font-weight: 550;
-  font-size: 300;
 }
 
 .mobile-links:hover {
@@ -108,14 +108,11 @@ span {
     height: 72px;
     background-image: url("../image/desktopbg.jpg");
   }
+
   .main-header {
     height: 70px;
     width: 100%;
     position: fixed;
-    background-image: url("../image/desktopbg.jpg");
-  }
-
-  header {
     background-image: url("../image/desktopbg.jpg");
   }
 
@@ -151,7 +148,6 @@ span {
     color: #fff;
     font-weight: normal;
     font-size: 18px;
-    font-size: 300;
   }
 
   .b {
@@ -294,7 +290,7 @@ span {
   .event-link:hover {
     color: var(--tetiary-color);
     font-size: 16px;
-    transition: 0.3 ease-in;
+    transition: 0.3s ease-in;
     background-color: var(--primary-color);
     font-weight: 400;
     border-radius: 4px;
