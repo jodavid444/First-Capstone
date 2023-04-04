@@ -667,5 +667,11 @@ iframe {
   display: none;
 }
 
+/***** Footer Section ********/
+
+ .footer {
+  padding: 70px 10px 50px 10px;
+  background-color: #272a31;
+}
 
 }
