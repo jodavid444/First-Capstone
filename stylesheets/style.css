@@ -883,6 +883,11 @@ partners-title {
     margin: 15px 50px;
   }
 
+/***** Desktop Footer Section ******/
+  .footer {
+    padding: 70px 10px 50px 10px;
+  }
+
 
 
 }  
