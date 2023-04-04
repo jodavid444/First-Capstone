@@ -671,5 +671,12 @@ span {
     line-height: 1.4;
   }
 
+   /**** Desktop Event Section *********/
+   .event {
+    background: var(--tetiary-color);
+    padding: 10vh 6px 30px 6px;
+  }
+
+
 }  
 
