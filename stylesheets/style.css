@@ -424,5 +424,10 @@ span {
     display: block;
   }
 
-
+/***** Partners Section **********/
+  .partners {
+    display: none;
+    padding: 8vh 6px 30px 6px;
+    background-color: var(--tetiary-color);
+}
 }
