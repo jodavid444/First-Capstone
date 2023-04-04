@@ -364,5 +364,12 @@ header {
     padding: 50px 10px 50px 10px;
   }
 
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
 
 }  
