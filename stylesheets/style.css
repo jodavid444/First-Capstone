@@ -234,7 +234,7 @@ span {
   }
 
 
-  /***** Mobile Event Section*********************/ 
+  /***** Mobile Event Section *********************/
 
   .event {
     background: var(--tetiary-color);
@@ -585,50 +585,50 @@ span {
 /******* Desktop Section ***************/
 
 @media screen and (min-width: 769px) {
-    .react {
-      display: flex;
-      align-items: center;
-      color: var(--secondary-color);
-      padding-left: 10%;
-    }
-  
-    .desktop-nav-container {
-      background-color: var(--tetiary-color);
-    }
-  
-    .desktop-nav-bar {
-      display: flex;
-      align-items: center;
-      justify-content: end;
-      min-height: 50px;
-      gap: 20px;
-      padding-left: 40px;
-    }
-  
-    .desktop-ul {
-      display: flex;
-      align-items: center;
-      gap: 30px;
-      margin-right: 12rem;
-    }
-  
-    .desktop-nav-bar li {
-      color: #fff;
-      font-size: 15px;
-      cursor: pointer;
-      font-weight: 400;
-    }
-  
-    .mobile-ul {
-      display: flex;
-      justify-content: end;
-      align-items: center;
-      padding-left: 60px;
-      gap: 40px;
-      margin-right: 10rem;
-    }
+  .react {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    padding-left: 10%;
+  }
 
-     /*** Desktop Headline Section ***/
+  .desktop-nav-container {
+    background-color: var(--tetiary-color);
+  }
+
+  .desktop-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    min-height: 50px;
+    gap: 20px;
+    padding-left: 40px;
+  }
+
+  .desktop-ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 12rem;
+  }
+
+  .desktop-nav-bar li {
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 400;
+  }
+
+  .mobile-ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 60px;
+    gap: 40px;
+    margin-right: 10rem;
+  }
+
+  /*** Desktop Headline Section ***/
 
   .headline-container {
     background-image: url("../image/desktopbg.jpg");
@@ -671,9 +671,9 @@ span {
     line-height: 1.4;
   }
 
-   /**** Desktop Event Section *********/
+  /**** Desktop Event Section *********/
 
-   .event {
+  .event {
     background: var(--tetiary-color);
     padding: 10vh 6px 30px 6px;
   }
@@ -844,13 +844,13 @@ span {
     display: none;
   }
 
-/****** Desktop Partners Section **************/
-.partners {
+  /****** Desktop Partners Section **************/
+  .partners {
     padding: 8vh 6px 50px 6px;
     background-color: var(--tetiary-color);
-}
+  }
 
-partners-title {
+  .partners-title {
     text-align: center;
   }
 
@@ -883,7 +883,7 @@ partners-title {
     margin: 15px 50px;
   }
 
-/***** Desktop Footer Section ******/
+  /***** Desktop Footer Section ******/
 
   .footer {
     padding: 70px 10px 50px 10px;
@@ -918,9 +918,6 @@ partners-title {
     color: var(--tetiary-color);
     font-weight: 500;
   }
-
 }
 
 /*** End of Desktop Section *****/
-
-
