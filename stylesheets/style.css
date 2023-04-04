@@ -850,5 +850,34 @@ span {
     background-color: var(--tetiary-color);
 }
 
+partners-title {
+    text-align: center;
+  }
+
+  .partners-title h2 {
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .partners-hr-container {
+    padding: 15px 0;
+    padding-bottom: 25px;
+  }
+
+  .partners-hr {
+    border-top: none;
+    border-color: var(--secondary-color);
+    width: 3vw;
+    margin: 0 auto;
+  }
+
+  .partners-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+
 }  
 
