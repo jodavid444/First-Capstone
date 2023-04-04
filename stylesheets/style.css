@@ -469,5 +469,33 @@ span {
     padding: 50px 10px 50px 10px;
   }
 
+  .footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .footer-img {
+    width: 50px;
+  }
+
+  .footer-item {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+  }
+
+  .footer-span-1 {
+    font-size: 19px;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .footer-style p {
+    font-style: oblique;
+    color: var(--tetiary-color);
+    font-weight: 400;
+  }
 
 }
