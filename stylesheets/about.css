@@ -500,4 +500,13 @@ header {
     margin-right: 10rem;
   }
 
+/**** Desktop Headline Section  **************/
+.headline-container {
+  background-image: url("../image/desktopbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10vh 11vw 10vh;
+  text-align: center;
+}  
+
 }
