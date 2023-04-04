@@ -329,5 +329,36 @@ header {
     text-align: center;
 }
 
+.partners-title h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 23px;
+  }
+
+  .partners-hr-container {
+    margin-top: 6px;
+    padding: 15px 0 25px;
+  }
+
+  .partners-hr {
+    border-top: none;
+    border-color: var(--secondary-color);
+    width: 10vw;
+    margin: 0 auto;
+  }
+
+  .partners-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 0;
+  }
+
+  .partners-img {
+    width: 150px;
+  }
+
+
 
 }  
