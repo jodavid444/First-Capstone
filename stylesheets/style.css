@@ -497,6 +497,7 @@ span {
     color: var(--tetiary-color);
     font-weight: 400;
   }
+}
 
   @media (max-width: 320px) {
     .event-notification {
@@ -546,4 +547,12 @@ span {
     }
   }
   
+@media (max-width: 375px) {
+    .event-description {
+      line-height: 1.3;
+      font-weight: 400;
+    }
 }
+  
+/******** End of Mobile Section **********/
+  
