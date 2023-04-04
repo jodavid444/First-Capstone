@@ -140,4 +140,45 @@ header {
     padding: 20vh 40px 100vh;
 }
 
+.mobile-links {
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  .b {
+    border: 2px solid var(--secondary-color);
+    padding: 7px 15px;
+  }
+
+  .c {
+    color: var(--secondary-color);
+  }
+
+  .mobile-ul.active {
+    left: 0%;
+  }
+
+  .logo-img {
+    width: 50px;
+    padding-right: 2px;
+  }
+
+  .desktop-nav-container {
+    display: none;
+  }
+
+  .react {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+  }
+
+  span {
+    font-size: 19px;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
 }  
