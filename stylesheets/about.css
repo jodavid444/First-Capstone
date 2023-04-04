@@ -179,7 +179,7 @@ header {
     font-weight: 600;
     font-style: normal;
   }
-  
+
  /**** Headline Section ************/
 
  .headline-container {
@@ -188,6 +188,40 @@ header {
     background-repeat: no-repeat;
     padding: 8vh 25px 7vh;
     text-align: center;
+}
+
+.headline-description {
+    color: var(--tetiary-color);
+    padding: 20px 15px;
+    line-height: 1.4;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
   }
+
+  .headline-section h2 {
+    padding: 25px 0;
+    color: var(--tetiary-color);
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  .more-info {
+    color: var(--tetiary-color);
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0 5px 0;
+    line-height: 1.8;
+  }
+
+  .about-mail {
+    font-size: 14px;
+    color: var(--tetiary-color);
+    font-style: italic;
+    border-bottom: 1px solid var(--tetiary-color);
+  }
+
 
 }  
