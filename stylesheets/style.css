@@ -844,7 +844,11 @@ span {
     display: none;
   }
 
-
+/****** Desktop Partners Section **************/
+.partners {
+    padding: 8vh 6px 50px 6px;
+    background-color: var(--tetiary-color);
+}
 
 }  
 
