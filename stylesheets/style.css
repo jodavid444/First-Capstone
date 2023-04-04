@@ -1,83 +1,169 @@
 @font-face {
-    font-family: "COCOGOOSE";
-    src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
-    src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+ font-family: "COCOGOOSE";
+ src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+ src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
 }
 
 :root {
-    --primary-color: #d3d3d3;
-    --secondary-color: #ec5242;
-    --tetiary-color: #272a31;
+ --primary-color: #d3d3d3;
+ --secondary-color: #ec5242;
+ --tetiary-color: #272a31;
 }
 
 body {
-    font-family: "Lato", sans-serif;
-    opacity: 0.9;
+ font-family: "Lato", sans-serif;
+ opacity: 0.9;
 }
 
 /***** Mobile Nav Bar **************/
 
 .nav-bar {
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+ height: 70px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 20px;
 }
   
 .mobile-ul {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding-left: 60px;
-    gap: 40px;
+ display: flex;
+ justify-content: end;
+ align-items: center;
+ padding-left: 60px;
+ gap: 40px;
 }
   
 .mobile-links {
-    transition: 0.7s ease;
-    font-weight: 550;
+ transition: 0.7s ease;
+ font-weight: 550;
 }
   
 .mobile-links:hover {
-    color: var(--secondary-color);
+ color: var(--secondary-color);
 }
   
 .harmburger {
-    cursor: pointer;
-    display: none;
+ cursor: pointer;
+ display: none;
 }
   
 .bar {
-    background-color: var(--tetiary-color);
-    display: block;
-    width: 25px;
-    height: 4px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+ background-color: var(--tetiary-color);
+ display: block;
+ width: 25px;
+ height: 4px;
+ margin: 5px auto;
+ -webkit-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
 }
   
 .logo-img {
-    width: 50px;
-    padding-right: 2px;
+ width: 50px;
+ padding-right: 2px;
 }
   
 span {
-    font-size: 19px;
-    font-weight: 600;
-    font-style: normal;
+ font-size: 19px;
+ font-weight: 600;
+ font-style: normal;
 }
   
 .b {
-    border: 3px solid var(--secondary-color);
-    padding: 7px 10px;
+ border: 3px solid var(--secondary-color);
+ padding: 7px 10px;
 }
   
 .c {
-    color: var(--secondary-color);
-    font-weight: bold;
+ color: var(--secondary-color);
+ font-weight: bold;
 }
   
+/***** Mobile Section *********/
 
+@media (max-width: 768px) {
+.desktop-nav-container {
+ display: none;
+}
   
+.nav-bar-2 {
+ position: fixed;
+}
   
+header {
+ height: 72px;
+ background-image: url("../image/desktopbg.jpg");
+}
+  
+.main-header {
+ height: 70px;
+ width: 100%;
+ position: fixed;
+ background-image: url("../image/desktopbg.jpg");
+}
+  
+.harmburger {
+ display: block;
+}
+  
+.harmburger.active .bar:nth-child(2) {
+ opacity: 0;
+}
+  
+.harmburger.active .bar:nth-child(1) {
+ transform: translateY(8px) rotate(45deg);
+}
+  
+.harmburger.active .bar:nth-child(3) {
+ transform: translateY(-10px) rotate(-45deg);
+}
+  
+.mobile-ul {
+ position: fixed;
+ left: -100%;
+ top: 70px;
+ gap: 30px;
+ flex-direction: column;
+ width: 100%;
+ background: var(--tetiary-color);
+ transition: 0.3s;
+ padding: 20vh 40px 100vh;
+}
+  
+.mobile-links {
+ color: #fff;
+ font-weight: normal;
+ font-size: 18px;
+}
+  
+.b {
+ border: 2px solid var(--secondary-color);
+ margin-bottom: 0;
+ padding: 7px 15px;
+}
+  
+.c {
+ color: var(--secondary-color);
+}
+  
+.mobile-ul.active {
+ left: 0%;
+}
+  
+.logo-img {
+ width: 50px;
+ padding-right: 2px;
+}
+  
+.react {
+ display: flex;
+ align-items: center;
+ color: var(--secondary-color);
+}
+  
+span {
+ font-size: 19px;
+ font-weight: 600;
+ font-style: normal;
+}
+
+}
