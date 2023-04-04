@@ -16,3 +16,11 @@
  --tetiary-color: #272a31;
 }
   
+body {
+    font-family: 'lato', sans-serif;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+  
