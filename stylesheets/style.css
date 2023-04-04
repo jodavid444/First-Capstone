@@ -677,6 +677,11 @@ span {
     padding: 10vh 6px 30px 6px;
   }
 
+  .event-container {
+    display: flex;
+    margin: 0 100px;
+  }
+
 
 }  
 
