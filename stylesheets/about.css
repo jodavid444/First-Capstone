@@ -617,5 +617,9 @@ header {
   background-color: #f8f8f8;
 }
 
+.past-commits-title {
+  text-align: center;
+}
+
 
 }
