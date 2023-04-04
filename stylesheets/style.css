@@ -9,5 +9,12 @@
     --secondary-color: #ec5242;
     --tetiary-color: #272a31;
 }
+
+body {
+    font-family: "Lato", sans-serif;
+    opacity: 0.9;
+}
+
+
   
   
