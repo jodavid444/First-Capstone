@@ -500,7 +500,7 @@ header {
     margin-right: 10rem;
   }
 
-/**** Desktop Headline Section  **************/
+/**** Desktop Headline Section  *********/
 .headline-container {
   background-image: url("../image/desktopbg.jpg");
   background-size: cover;
@@ -508,7 +508,6 @@ header {
   padding: 10vh 11vw 10vh;
   text-align: center;
 }
-
 
 .headline-title {
   color: var(--secondary-color);
@@ -552,6 +551,12 @@ header {
 
 .about-mail {
   font-size: 15px;
+}
+
+  /**** Desktop  About Logo Section *****************/
+.about-logo {
+  padding: 50px 0 10vh;
+  background-color: #f8f8f8;
 }
 
 
