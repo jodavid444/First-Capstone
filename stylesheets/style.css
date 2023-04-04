@@ -901,7 +901,24 @@ partners-title {
     width: 60px;
   }
 
+  .footer-item {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+  }
+
+  span {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .footer-style p {
+    font-style: oblique;
+    color: var(--tetiary-color);
+    font-weight: 500;
+  }
+}
 
 
-}  
 
