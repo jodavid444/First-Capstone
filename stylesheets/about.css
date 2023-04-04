@@ -643,6 +643,29 @@ header {
   padding-bottom: 0;
 }
 
+.past-commits-sub-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+iframe {
+  width: 430px;
+}
+
+.past-commits-description {
+  color: var(--tetiary-color);
+  font-size: 15px;
+}
+
+.past-commits-flex {
+  margin: 0;
+}
+
+.partners {
+  display: none;
+}
 
 
 }
