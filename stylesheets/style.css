@@ -672,6 +672,7 @@ span {
   }
 
    /**** Desktop Event Section *********/
+
    .event {
     background: var(--tetiary-color);
     padding: 10vh 6px 30px 6px;
@@ -682,6 +683,68 @@ span {
     margin: 0 100px;
   }
 
+  .event-sub-container {
+    margin-bottom: 70px;
+  }
+
+  .event-title {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 29px;
+  }
+
+  .event-hr {
+    border-top: none;
+    border-color: var(--secondary-color);
+    width: 5vw;
+    margin: 0 auto;
+  }
+
+  .event-main {
+    background: rgb(204 204 204 / 20%);
+    margin: 5px;
+    padding: 15px;
+  }
+
+  .card:hover {
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+  }
+
+  .flex-event {
+    text-align: center;
+  }
+
+  .event-text {
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+
+  .event-img {
+    width: 50px;
+  }
+
+  .event-description {
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+
+  .event-notification {
+    text-align: center;
+    padding: 50px 0 50px 0;
+  }
+
+  .event-link {
+    color: #fff;
+    font-size: 18px;
+    font-style: oblique;
+    border-bottom: 2px solid white;
+  }
 
 }  
 
