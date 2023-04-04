@@ -372,8 +372,25 @@ header {
 }
 
 .footer-img {
- width: 50px;
+  width: 50px;
 }
 
+.footer-item {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+  }
+
+  .footer-span {
+    font-size: 19px;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .footer-style p {
+    font-style: oblique;
+    color: var(--tetiary-color);
+    font-weight: 400;
+}
 
 }  
