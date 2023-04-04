@@ -213,5 +213,10 @@ span {
  line-height: 1.4;
 }
 
+.event {
+ background: var(--tetiary-color);
+ padding: 5vh 6px 30px 6px;
+}
+
 
 }
