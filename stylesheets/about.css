@@ -319,5 +319,10 @@ header {
     margin-bottom: 15px;
   }
 
+/***** Partners Section **********/
+.partners {
+    padding: 8vh 6px 30px 6px;
+    background-color: var(--tetiary-color);
+}
 
 }  
