@@ -818,6 +818,23 @@ span {
     font-size: 14px;
   }
 
+  .feature-img-container {
+    margin-right: 15px;
+    padding-bottom: 35px;
+    background-image: url(https://amrit131.github.io/Capstone-project/assets/images/testimonials/checkerboard.svg);
+    width: 30%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: -15%;
+    background-position-y: top;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
 
 }  
 
