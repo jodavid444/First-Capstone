@@ -98,7 +98,7 @@ header {
     font-weight: bold;
   }
   
-  /******* Mobile Section ****************/
+  /******* About Mobile Section ****************/
   @media (max-width: 768px) {
 .harmburger {
     display: block;
@@ -180,7 +180,7 @@ header {
     font-style: normal;
   }
 
- /**** Headline Section ************/
+ /**** Mobile Headline Section ************/
 
  .headline-container {
     background-image: url("../image/desktopbg.jpg");
@@ -190,7 +190,17 @@ header {
     text-align: center;
 }
 
-.headline-description {
+  .headline-subtitle {
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-weight: 100;
+    padding: 5px 0 20px 0;
+    line-height: 1.3;
+    width: 100%;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
+  .headline-description {
     color: var(--tetiary-color);
     padding: 20px 15px;
     line-height: 1.4;
@@ -223,7 +233,7 @@ header {
     border-bottom: 1px solid var(--tetiary-color);
 }
 
-/**** About Logo Section **************/
+/**** Mobile About Logo Section **************/
 .about-logo {
   padding: 50px 0 7vh;
   background-color: #f8f8f8;
@@ -275,7 +285,6 @@ header {
     border-color: #fff;
     border-bottom: none;
 }
-
 
 /** Mobile Past Commits Section ****/
 
@@ -445,4 +454,50 @@ header {
 
 /***** End of Mobile Section ********/
 
+/****   Desktop Section ***********/
 
+@media screen and (min-width: 769px) {
+  .react {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    padding-left: 10%;
+  }
+
+  .desktop-nav-container {
+    background-color: var(--tetiary-color);
+  }
+
+  .desktop-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    min-height: 50px;
+    gap: 20px;
+    padding-left: 40px;
+  }
+
+  .desktop-ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 12rem;
+  }
+
+  .desktop-nav-bar li {
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 400;
+  }
+
+  .mobile-ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 60px;
+    gap: 40px;
+    margin-right: 10rem;
+  }
+
+}
