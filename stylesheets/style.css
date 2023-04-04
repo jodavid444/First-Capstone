@@ -311,5 +311,29 @@ span {
 .feature {
     background-color: #f8f8f8;
     padding: 8vh 6px 30px 20px;
-}  
+}
+
+.feature-sub-container {
+    padding-bottom: 50px;
+  }
+
+  .feature-title {
+    text-align: center;
+  }
+
+  .feature-text {
+    color: var(--tetiary-color);
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+
+  .feature-hr {
+    border-top: none;
+    border-color: var(--secondary-color);
+    width: 15vw;
+    margin: 0 auto;
+  }
+
 }
