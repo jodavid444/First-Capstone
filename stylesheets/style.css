@@ -306,5 +306,10 @@ span {
     font-weight: 400;
   }
 
-  
+/****** Feature Section ***********/
+
+.feature {
+    background-color: #f8f8f8;
+    padding: 8vh 6px 30px 20px;
+}  
 }
