@@ -507,6 +507,52 @@ header {
   background-repeat: no-repeat;
   padding: 10vh 11vw 10vh;
   text-align: center;
-}  
+}
+
+
+.headline-title {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.headline-subtitle {
+  color: var(--secondary-color);
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 5px 0 20px 0;
+  text-align: center;
+  width: 40rem;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.headline-description {
+  font-size: 17px;
+  color: var(--tetiary-color);
+  width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
+  border: 4px solid #fff;
+  padding: 30px;
+  font-weight: 400;
+}
+
+.headline-section h2 {
+  padding: 20px 0;
+  color: var(--tetiary-color);
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+.more-info {
+  font-size: 16px;
+  padding: 40px 0 10px 0;
+}
+
+.about-mail {
+  font-size: 15px;
+}
+
 
 }
