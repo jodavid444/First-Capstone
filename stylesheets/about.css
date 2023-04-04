@@ -554,10 +554,14 @@ header {
 }
 
   /**** Desktop  About Logo Section *****************/
+
 .about-logo {
   padding: 50px 0 10vh;
   background-color: #f8f8f8;
 }
 
+.about-logo-title {
+    text-align: center;
+} 
 
 }
