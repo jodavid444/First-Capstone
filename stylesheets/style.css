@@ -884,8 +884,17 @@ partners-title {
   }
 
 /***** Desktop Footer Section ******/
+
   .footer {
     padding: 70px 10px 50px 10px;
+  }
+
+  .footer-flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10rem;
+    padding-left: 17rem;
   }
 
 
