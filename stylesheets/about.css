@@ -391,6 +391,8 @@ header {
     font-style: oblique;
     color: var(--tetiary-color);
     font-weight: 400;
+} 
+
 }
 
 @media (max-width: 320px) {
@@ -439,6 +441,8 @@ header {
       align-items: center;
       gap: 30px;
     }
-  }
+}
 
-}  
+/***** End of Mobile Section ********/
+
+
