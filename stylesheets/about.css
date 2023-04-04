@@ -274,6 +274,14 @@ header {
     width: 100vw;
     border-color: #fff;
     border-bottom: none;
-  }
+}
+
+
+/** Mobile Past Commits Section ****/
+
+.past-commits {
+    padding: 0 10px 8vh;
+    background-color: #f8f8f8;
+}
 
 }  
