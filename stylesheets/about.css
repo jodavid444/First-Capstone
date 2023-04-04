@@ -179,6 +179,15 @@ header {
     font-weight: 600;
     font-style: normal;
   }
+  
+ /**** Headline Section ************/
 
+ .headline-container {
+    background-image: url("../image/desktopbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8vh 25px 7vh;
+    text-align: center;
+  }
 
 }  
