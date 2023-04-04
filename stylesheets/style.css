@@ -464,5 +464,10 @@ span {
     width: 150px;
   }
 
+  .footer {
+    display: none;
+    padding: 50px 10px 50px 10px;
+  }
+
 
 }
