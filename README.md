@@ -8,8 +8,6 @@
 
 ## Built With
 
-- Languages 
-
 - HTML
 
 - CSS
