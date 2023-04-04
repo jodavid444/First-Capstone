@@ -2,9 +2,9 @@
 
 # Geekle React Global Online Summits website.
 
-> This is my first capstone project at microvesre after rounding up the portal section, The greekle online global summits website is a virtual event where speakers who are leading expert from all over the world share ideas on how to solve challanges from work using react, geekle has the unique experience to gather huge tech summits with 10'000+ attendees in different tech domains.
+> This is my first capstone project at microvesre after rounding up the portal section, The greekle online global summits website holds a virtual event where speakers who are leading expert from all over the world share ideas on how to solve challanges from work using react, greekle has the unique experience to gather huge tech summits with 10'000+ attendees in different tech domains.
 
-<img src="image/Screenshot 2023-03-08 144358.png" alt="">
+<img src="image/Screenshot 2023-03-31 184700.png" alt="Live Screenshot">
 
 ## Built With
 
@@ -26,9 +26,9 @@
 
 - ESlint
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://jodavid444.github.io/First-Capstone-Project/)
+[Live Demo Link](https://jodavid444.github.io/First-Capstone/)
 
 [Video Presentation](https://drive.google.com/file/d/1gJyEXOM6y8kTRfMw3Sk-h-DpsQ34INfG/view?usp=share_link)
 
@@ -44,14 +44,16 @@ A Web Browser (preferably Google Chrome)
 
 Clone the GitHub Repository 
 
-git clone git@github.com:jodavid444/First-Capstone.git
+```sh
+  git clone git@github.com:jodavid444/First-Capstone.git
 
-cd First-Capstone
+  cd First-Capstone
+```
 
 ### Usage
-
+```sh
 Open index.html in Chrome to view the website
-
+```
 ## Authors
 
 👤 **Joseph David**
@@ -74,7 +76,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07), in association with the [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
+- Thanks to the Creator of the Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07), in association with the [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## 📝 License
 
