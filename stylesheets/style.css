@@ -430,4 +430,34 @@ span {
     padding: 8vh 6px 30px 6px;
     background-color: var(--tetiary-color);
 }
+
+.partners-title {
+    text-align: center;
+  }
+
+  .partners-title h2 {
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .partners-hr-container {
+    margin-top: 15px;
+    padding: 15px 40px;
+  }
+
+  .partners-hr {
+    border-top: none;
+    border-color: var(--secondary-color);
+    width: 6vw;
+    margin: 0 auto;
+  }
+
+  .partners-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0;
+  }
+
 }
