@@ -674,4 +674,12 @@ iframe {
   background-color: #272a31;
 }
 
+.footer-flex {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10rem;
+  padding-left: 17rem;
+}
+
 }
