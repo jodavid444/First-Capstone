@@ -636,5 +636,40 @@ span {
     background-repeat: no-repeat;
     padding: 10vh 11vw 10vh;
   }
+
+  .headline-title {
+    color: var(--secondary-color);
+    font-size: 24px;
+    font-weight: 410;
+  }
+
+  .headline-subtitle {
+    font-family: sans-serif;
+    color: var(--secondary-color);
+    font-size: 42px;
+    padding: 5px 0 20px 0;
+    line-height: 1.3;
+    font-weight: 800;
+    width: 30rem;
+  }
+
+  .headline-description {
+    font-size: 17px;
+    color: var(--tetiary-color);
+    border: 4px solid #fff;
+    padding: 20px;
+    line-height: 1.5;
+    width: 38rem;
+  }
+
+  .date {
+    font-size: 25px;
+    padding: 19px 0 10px 0;
+    color: var(--tetiary-color);
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 100;
+    line-height: 1.4;
+  }
+
 }  
 
