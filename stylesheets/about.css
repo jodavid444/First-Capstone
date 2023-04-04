@@ -359,6 +359,10 @@ header {
     width: 150px;
   }
 
+/***** Footer Section ******/
+.footer {
+    padding: 50px 10px 50px 10px;
+  }
 
 
 }  
