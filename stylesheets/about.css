@@ -221,7 +221,13 @@ header {
     color: var(--tetiary-color);
     font-style: italic;
     border-bottom: 1px solid var(--tetiary-color);
-  }
+}
+
+/**** About Logo Section **************/
+.about-logo {
+    padding: 50px 0 7vh;
+    background-color: #f8f8f8;
+}
 
 
 }  
