@@ -621,5 +621,28 @@ header {
   text-align: center;
 }
 
+.past-commits-title h2 {
+  color: var(--tetiary-color);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.past-commits-hr-container {
+  padding: 10px 0 25px 0;
+}
+
+.past-commits-hr {
+  border-color: #f7786a;
+  border-top: none;
+  width: 5vw;
+  margin: 0 auto;
+}
+
+.past-commits-description-container {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+
 
 }
