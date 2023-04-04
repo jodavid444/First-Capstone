@@ -30,7 +30,7 @@
 
 [Live Demo Link](https://jodavid444.github.io/First-Capstone/)
 
-[Video Presentation](https://drive.google.com/file/d/1gJyEXOM6y8kTRfMw3Sk-h-DpsQ34INfG/view?usp=share_link)
+[Video Presentation Link](https://drive.google.com/file/d/1gJyEXOM6y8kTRfMw3Sk-h-DpsQ34INfG/view?usp=share_link)
 
 ## Getting Started
 
@@ -62,7 +62,7 @@ Open index.html in Chrome to view the website
 
 - Twitter: [@jodavid444dave](https://twitter.com/jodavid444dave)
 
-- LinkedIn: [LinkedIn](https://linkedin.com/in/joseph-david-01a8a5243)
+- LinkedIn: [@joseph-david](https://linkedin.com/in/joseph-david-01a8a5243)
 
 ## 🤝 Contributing
 
