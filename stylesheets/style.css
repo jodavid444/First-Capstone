@@ -834,6 +834,16 @@ span {
     justify-content: center;
   }
 
+  .feature-img {
+    width: 130px;
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+
+  .btn {
+    display: none;
+  }
+
 
 
 }  
