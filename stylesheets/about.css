@@ -393,4 +393,52 @@ header {
     font-weight: 400;
 }
 
+@media (max-width: 320px) {
+    .event-notification {
+      text-align: center;
+      padding: 28px 0;
+    }
+  
+    .event-link {
+      color: #fff;
+      background: #ec5242;
+      padding: 20px;
+      font-size: 15px;
+      font-style: oblique;
+    }
+  
+    .feature-img {
+      width: 100px;
+    }
+  
+    .main-sub-feature {
+      margin-bottom: 40px;
+    }
+  
+    .partners-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      padding: 20px 0;
+    }
+  
+    .partners-img {
+      width: 130px;
+    }
+  
+    .footer-style p {
+      font-style: oblique;
+      color: var(--tetiary-color);
+      font-weight: 300;
+    }
+  
+    .footer-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+
 }  
