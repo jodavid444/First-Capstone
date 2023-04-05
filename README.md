@@ -28,7 +28,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://jodavid444.github.io/First-Capstone/)
+[Live Demo Link](https://jodavid444.github.io/First_Capstone/)
 
 [Video Presentation Link](https://drive.google.com/file/d/1gJyEXOM6y8kTRfMw3Sk-h-DpsQ34INfG/view?usp=share_link)
 
