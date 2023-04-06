@@ -74,9 +74,10 @@ main.innerHTML = `
   <div class="main-feature">
   ${speakers.map((s) => speaker(s))}
   </div>
-
-  <button class="btn check-button"><span class="btn-text">MORE <i class="fa-solid fa-caret-down "></i></button>
-  </div>
+<div class="button-container">
+<button class="btn check-button"><span class="btn-text">MORE <i class="fa-solid fa-caret-down "></i></button>
+</div>
+</div>
   
   `;
 

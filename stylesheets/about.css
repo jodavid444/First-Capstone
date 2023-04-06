@@ -674,12 +674,11 @@ span {
 
   .footer-flex {
     display: flex;
-    justify-content: left;
     align-items: center;
-    gap: 10rem;
-    padding-left: 17rem;
+    justify-content: center;
+    gap: 8rem;
   }
-
+  
   .footer-img {
     width: 60px;
   }

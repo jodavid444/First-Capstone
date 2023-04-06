@@ -331,7 +331,6 @@ span {
 
   .feature {
     background-color: #f8f8f8;
-    padding: 8vh 6px 30px 20px;
   }
 
   .feature-sub-container {
@@ -347,7 +346,7 @@ span {
     font-weight: 400;
     font-size: 25px;
     padding-bottom: 10px;
-    padding-top: 0;
+    padding-top: 20px;
   }
 
   .feature-hr {
@@ -401,6 +400,11 @@ span {
     padding-bottom: 5px;
   }
 
+  .main-feature {
+    padding: 2vh 6px 30px 20px;
+
+  }
+
   .feature-sub-hr-container {
     margin: 10px 0;
   }
@@ -416,15 +420,18 @@ span {
     margin-bottom: 48px;
   }
 
-  .check-button {
-    display: none;
+  .button-container {
+  display: flex;
+  justify-content: center;
+
   }
 
   .btn {
-    width: 100%;
+    width: 95%;
     height: 40px;
     font-size: 16px;
     font-weight: 100;
+    margin-bottom: 10px;
   }
 
   .btn i {
@@ -641,7 +648,7 @@ span {
   }
 
   .headline-subtitle {
-    font-family: sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     color: var(--secondary-color);
     font-size: 42px;
     padding: 5px 0 20px 0;
@@ -888,10 +895,9 @@ span {
 
   .footer-flex {
     display: flex;
-    justify-content: left;
     align-items: center;
-    gap: 10rem;
-    padding-left: 17rem;
+    justify-content: center;
+    gap: 8rem;
   }
 
   .footer-img {
