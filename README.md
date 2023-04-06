@@ -70,7 +70,7 @@
 
 [Live Demo Link](https://jodavid444.github.io/First_Capstone/)
 
-[Video Presentation Link](https://drive.google.com/file/d/1gJyEXOM6y8kTRfMw3Sk-h-DpsQ34INfG/view?usp=share_link)
+[Video Presentation Link](https://drive.google.com/file/d/1DQAb9dB-slhPxhUDMtCBQ8PTFX-IUbiR/view?usp=sharing)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
