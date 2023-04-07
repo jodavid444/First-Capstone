@@ -129,7 +129,8 @@ If you like this project please leave a star. Thank you 🙏
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the great project idea
+I would like to thank Microverse for the great project idea and acknowledgment to [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015),
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
