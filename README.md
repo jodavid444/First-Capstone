@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link](https://jodavid444.github.io/First_Capstone/)
+[Live Demo Link](https://jodavid444.github.io/First-Capstone/)
 
 [Video Presentation Link](https://drive.google.com/file/d/1DQAb9dB-slhPxhUDMtCBQ8PTFX-IUbiR/view?usp=sharing)
 
