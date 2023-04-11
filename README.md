@@ -18,9 +18,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -34,7 +32,7 @@
 
 > This is my first capstone project at microvesre after rounding up the portal section, The greekle online global summits website holds a virtual event where speakers who are leading expert from all over the world share ideas on how to solve challanges from work using react, greekle has the unique experience to gather huge tech summits with 10'000+ attendees in different tech domains.
 
-<img src="image/Screenshot 2023-03-31 184700.png" alt="Live Screenshot">
+<img src="image/Screenshot 2023-04-11 163714.png" alt="">
 
 
 ## 🛠 Built With <a name="built-with"></a>
