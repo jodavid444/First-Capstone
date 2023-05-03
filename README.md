@@ -31,7 +31,7 @@
 
 - CSS
 
-- JavaScriptk
+- JavaScript
 
 ## Technologies used
 
