@@ -37,7 +37,7 @@ li {
 /***** Mobile Nav Bar **************/
 
 .nav-bar {
-  height: 70px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +69,7 @@ li {
 .bar {
   background-color: var(--tetiary-color);
   display: block;
-  width: 25px;
+  width: 30px;
   height: 4px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -110,14 +110,14 @@ span {
 
   header {
     height: 72px;
-    background-image: url("../image/desktopbg.jpg");
   }
 
   .main-header {
-    height: 70px;
+    height: 72px;
     width: 100%;
     position: fixed;
-    background-image: url("../image/desktopbg.jpg");
+    background-color: white;
+    box-shadow: 0 4px 2px -2px rgb(191, 189, 189);
   }
 
   .harmburger {
@@ -143,25 +143,21 @@ span {
     gap: 30px;
     flex-direction: column;
     width: 100%;
-    background: var(--tetiary-color);
     transition: 0.3s;
     padding: 20vh 40px 100vh;
+    background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgba(24, 23, 23, 0.87)), url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/bg.jpg);
   }
 
   .mobile-links {
     color: #fff;
-    font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 450;
   }
 
   .b {
     border: 2px solid var(--secondary-color);
     margin-bottom: 0;
     padding: 7px 15px;
-  }
-
-  .c {
-    color: var(--secondary-color);
   }
 
   .mobile-ul.active {
@@ -187,10 +183,10 @@ span {
 
   /**** Headline Section ************/
   .headline-container {
-    background-image: url("../image/desktopbg.jpg");
+    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/homesection.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 5vh 25px 10vh;
+    padding: 10vh 25px 10vh;
   }
 
   .headline-title {
@@ -202,8 +198,8 @@ span {
   .headline-subtitle {
     color: var(--secondary-color);
     font-size: 30px;
-    padding: 9px 0 0 0;
-    line-height: 1.2;
+    padding: 10px 0 10px 0;
+    line-height: 1.1;
     font-family: 'COCOGOOSE', sans-serif;
     font-weight: 100;
   }
@@ -221,6 +217,8 @@ span {
     border: 3px solid #fff;
     padding: 20px 15px;
     line-height: 1.5;
+    background: #d3d3d352;
+    font-size: 17px;
   }
 
   .date {
@@ -237,6 +235,7 @@ span {
   .event {
     background: var(--tetiary-color);
     padding: 5vh 6px 30px 6px;
+    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/mission.png);
   }
 
   .event-sub-container {
@@ -259,28 +258,24 @@ span {
 
   .event-img {
     width: 40px;
+    margin-right: 20px;
   }
 
   .event-main {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    align-items: center;
     padding: 20px;
-    background: rgb(204 204 204 / 20%);
+    background: #3b3e45;
     margin: 10px;
   }
 
   .flex-event {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
   }
 
   .event-text {
     color: var(--secondary-color);
     font-weight: 600;
-    padding-left: 10px;
     font-size: 20px;
   }
 
@@ -290,20 +285,24 @@ span {
     font-weight: 300;
   }
 
+  .one-1 {
+    margin-right: 20px;
+  }
+
   .one {
-    margin-right: 22px;
+    margin-right: 39px;
   }
 
   .two {
-    margin-right: 10px;
+    margin-right: 28px;
   }
 
   .three {
-    margin-right: 54px;
+    margin-right: 20px;
   }
 
   .four {
-    margin-right: 7px;
+    margin-right: 25px;
   }
 
   .event-notification {
@@ -330,7 +329,7 @@ span {
   /****** Feature Section ***********/
 
   .feature {
-    background-color: #f8f8f8;
+    background-color: #fff;
   }
 
   .feature-sub-container {
@@ -429,11 +428,16 @@ span {
     height: 40px;
     font-size: 16px;
     font-weight: 100;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    border: 1px solid var(--primary-color);
   }
 
   .btn i {
     color: #ec5242;
+  }
+
+  .check-button {
+    background-color: #fff;
   }
 
   .btn-text {
@@ -452,7 +456,6 @@ span {
 
   /***** Partners Section **********/
   .partners {
-    display: none;
     padding: 8vh 6px 30px 6px;
     background-color: var(--tetiary-color);
   }
@@ -467,8 +470,7 @@ span {
   }
 
   .partners-hr-container {
-    margin-top: 15px;
-    padding: 15px 40px;
+    padding: 10px 0 20px 0;
   }
 
   .partners-hr {
@@ -493,7 +495,6 @@ span {
   /*** Mobile Footer Section *****/
 
   .footer {
-    display: none;
     padding: 50px 10px 50px 10px;
   }
 
@@ -633,39 +634,59 @@ span {
   /*** Desktop Headline Section ***/
 
   .headline-container {
-    background-image: url("../image/desktopbg.jpg");
+    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/homesection.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10vh 11vw 10vh;
+    padding: 33vh 11vw 10vh;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    height: 72px;
+  }
+
+  .main-header {
+    width: 100%;
+    background-color: white;
+  }
+
+  .nav-bar {
+    height: 85px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 2px -2px gray;
   }
 
   .headline-title {
     color: var(--secondary-color);
-    font-size: 24px;
-    font-weight: 410;
+    font-size: 30px;
+    font-weight: 400;
   }
 
   .headline-subtitle {
     font-family: 'COCOGOOSE', sans-serif;
     color: var(--secondary-color);
-    font-size: 42px;
-    padding: 5px 0 20px 0;
-    line-height: 1.3;
-    font-weight: 800;
-    width: 30rem;
+    font-size: 50px;
+    padding: 15px 0 20px 0;
+    line-height: 1.2;
+    font-weight: 300;
+    width: 49rem;
   }
 
   .headline-description {
     font-size: 17px;
     color: var(--tetiary-color);
-    border: 4px solid #fff;
-    padding: 20px;
+    border: 3px solid #fff;
+    background: #d3d3d352;
+    padding: 15px;
     line-height: 1.5;
     width: 38rem;
   }
 
   .date {
-    font-size: 25px;
+    font-size: 35px;
     padding: 19px 0 10px 0;
     color: var(--tetiary-color);
     font-family: 'COCOGOOSE', sans-serif;
@@ -678,11 +699,14 @@ span {
   .event {
     background: var(--tetiary-color);
     padding: 10vh 6px 30px 6px;
+    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/mission.png);
   }
 
   .event-container {
-    display: flex;
-    margin: 0 100px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin: 0 52px;
   }
 
   .event-sub-container {
@@ -705,12 +729,14 @@ span {
   }
 
   .event-main {
-    background: rgb(204 204 204 / 20%);
+    background: #3b3e45;
     margin: 5px;
     padding: 15px;
+    text-align: center;
   }
 
-  .card:hover {
+  .event-main:hover {
+    transition: ease-out 1s;
     border: 2px solid var(--primary-color);
     cursor: pointer;
   }
@@ -722,10 +748,12 @@ span {
   .event-text {
     color: var(--secondary-color);
     font-weight: 600;
+    text-align: center;
   }
 
   .event-img {
     width: 50px;
+    padding-bottom: 10px;
   }
 
   .event-description {
@@ -750,7 +778,7 @@ span {
 
   /****** Feature Section *************/
   .feature {
-    background-color: #f8f8f8;
+    background-color: #fff;
     padding: 8vh 6px 40px 20px;
   }
 
@@ -820,27 +848,7 @@ span {
     font-size: 14px;
   }
 
-  .feature-img-container {
-    margin-right: 15px;
-    padding-bottom: 35px;
-    background-image: url(https://amrit131.github.io/Capstone-project/assets/images/testimonials/checkerboard.svg);
-    width: 30%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position-x: -15%;
-    background-position-y: top;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
-  .feature-img {
-    width: 130px;
-    padding-top: 20px;
-    padding-left: 15px;
-  }
 
   .btn {
     display: none;
@@ -922,3 +930,27 @@ span {
 }
 
 /*** End of Desktop Section *****/
+
+@media screen and (min-width:769px) {
+  .feature-img-container {
+    margin-right: 15px;
+    padding-bottom: 35px;
+    background-image: url(https://amrit131.github.io/Capstone-project/assets/images/testimonials/checkerboard.svg);
+    width: 30%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: -15%;
+    background-position-y: top;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-img {
+    width: 130px;
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+}

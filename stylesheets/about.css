@@ -34,7 +34,7 @@ li {
 }
 
 header {
-  background-image: url("../image/desktopbg.jpg");
+  background-color: white;
 }
 
 .nav-bar {
@@ -70,7 +70,7 @@ header {
 .bar {
   background-color: var(--tetiary-color);
   display: block;
-  width: 25px;
+  width: 30px;
   height: 4px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -106,14 +106,14 @@ span {
 
   header {
     height: 72px;
-    background-image: url("../image/desktopbg.jpg");
   }
 
   .main-header {
-    height: 70px;
+    height: 72px;
     width: 100%;
     position: fixed;
-    background-image: url("../image/desktopbg.jpg");
+    background-color: white;
+    box-shadow: 0 4px 2px -2px rgb(191, 189, 189);
   }
 
   .harmburger.active .bar:nth-child(2) {
@@ -132,27 +132,23 @@ span {
     position: fixed;
     left: -100%;
     top: 70px;
+    background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgba(24, 23, 23, 0.87)), url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/bg.jpg);
     gap: 30px;
     flex-direction: column;
     width: 100%;
-    background: var(--tetiary-color);
     transition: 0.3s;
     padding: 20vh 40px 100vh;
   }
 
   .mobile-links {
     color: #fff;
-    font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 450;
   }
 
   .b {
     border: 2px solid var(--secondary-color);
     padding: 7px 15px;
-  }
-
-  .c {
-    color: var(--secondary-color);
   }
 
   .mobile-ul.active {
@@ -183,10 +179,10 @@ span {
   /**** Mobile Headline Section ************/
 
   .headline-container {
-    background-image: url("../image/desktopbg.jpg");
+    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/homesection.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 8vh 25px 7vh;
+    padding: 9vh 25px 7vh;
     text-align: center;
   }
 
@@ -195,8 +191,7 @@ span {
     font-size: 30px;
     font-weight: 100;
     padding: 5px 0 20px 0;
-    line-height: 1.3;
-    width: 100%;
+    line-height: 1.2;
     font-family: 'COCOGOOSE', sans-serif;
   }
 
@@ -204,10 +199,10 @@ span {
     color: var(--tetiary-color);
     padding: 20px 15px;
     line-height: 1.4;
-    background-color: var(--primary-color);
-    border-radius: 8px;
+    background-color: white;
     font-style: normal;
     font-weight: 400;
+    border: 2px solid var(--primary-color);
   }
 
   .headline-section h2 {
@@ -227,16 +222,15 @@ span {
   }
 
   .about-mail {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--tetiary-color);
-    font-style: italic;
     border-bottom: 1px solid var(--tetiary-color);
   }
 
   /**** Mobile About Logo Section **************/
   .about-logo {
     padding: 50px 0 7vh;
-    background-color: #f8f8f8;
+    background-color: white;
   }
 
   .about-logo-title {
@@ -290,7 +284,7 @@ span {
 
   .past-commits {
     padding: 0 10px 8vh;
-    background-color: #f8f8f8;
+    background-color: #fff;
   }
 
   .past-commits-title {
@@ -501,10 +495,10 @@ span {
 
   /**** Desktop Headline Section  *********/
   .headline-container {
-    background-image: url("../image/desktopbg.jpg");
+    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/homesection.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10vh 11vw 10vh;
+    padding: 33vh 11vw 10vh;
     text-align: center;
   }
 
@@ -516,25 +510,26 @@ span {
 
   .headline-subtitle {
     color: var(--secondary-color);
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 50px;
+    font-weight: 300;
     padding: 5px 0 20px 0;
     text-align: center;
-    width: 40rem;
+    width: 49rem;
     margin: 0 auto;
-    line-height: 1.4;
+    line-height: 1.2;
     font-family: 'COCOGOOSE', sans-serif;
   }
 
   .headline-description {
     font-size: 17px;
     color: var(--tetiary-color);
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
     line-height: 1.5;
-    border: 4px solid #fff;
+    border: 2px solid var(--primary-color);
+    background: white;
     padding: 30px;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .headline-section h2 {
@@ -550,14 +545,33 @@ span {
   }
 
   .about-mail {
-    font-size: 15px;
+    font-size: 17px;
+    color: var(--tetiary-color);
+    border-bottom: 1px solid var(--tetiary-color);
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  .main-header {
+    width: 100%;
+  }
+
+  .nav-bar {
+    height: 85px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 2px -2px rgb(191, 189, 189);
   }
 
   /**** Desktop  About Logo Section *****************/
 
   .about-logo {
     padding: 50px 0 10vh;
-    background-color: #f8f8f8;
+    background-color: #fff;
   }
 
   .about-logo-title {
@@ -613,7 +627,7 @@ span {
   /**** Desktop Past Commit Section ***********/
   .past-commits {
     padding: 0 10px 15vh;
-    background-color: #f8f8f8;
+    background-color: #fff;
   }
 
   .past-commits-title {
