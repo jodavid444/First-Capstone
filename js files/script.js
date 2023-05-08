@@ -39,19 +39,19 @@ function speaker(speaker) {
     
 
     <div class="feature-img-container">
-        <img class="background-img" src="./images/Screenshot 2023-03-21 065729 (2).png" alt="">
-        <img class="feature-img" src="${speaker.image}" alt="feature-img">
+      <img class="background-img" src="./images/Screenshot 2023-03-21 065729 (2).png" alt="">
+      <img class="feature-img" src="${speaker.image}" alt="feature-img">
     </div>
 
     <div class="nab">
-        <h3>${speaker.title}</h3>
-        <span class="feature-span">${speaker.decription}</span>
-        <div class="feature-sub-hr-container">
-            <hr class="feature-sub-hr">
-        </div>
-        <p class="feature-description">
-        ${speaker.descriptioninfo}
-        </p>
+      <h3>${speaker.title}</h3>
+      <span class="feature-span">${speaker.decription}</span>
+      <div class="feature-sub-hr-container">
+      <hr class="feature-sub-hr">
+      </div>
+      <p class="feature-description">
+      ${speaker.descriptioninfo}
+      </p>
     </div>
 
     
@@ -80,19 +80,3 @@ main.innerHTML = `
 </div>
   
   `;
-
-const mobileDisplayBtn = document.querySelector('.btn');
-const cardSection = document.querySelector('.section-2');
-let showMore = true;
-
-mobileDisplayBtn.addEventListener('click', () => {
-  if (showMore) {
-    cardSection.classList.add('active');
-    mobileDisplayBtn.innerHTML = ('LESS <i class="fa-solid fa-caret-up"></i>');
-    showMore = false;
-  } else {
-    cardSection.classList.remove('active');
-    mobileDisplayBtn.innerHTML = ' MORE <i class="fa-solid fa-caret-down"></i>';
-    showMore = true;
-  }
-});
