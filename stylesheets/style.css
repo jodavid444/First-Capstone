@@ -699,7 +699,6 @@ span {
   .event {
     background: var(--tetiary-color);
     padding: 10vh 6px 30px 6px;
-    background-image: url('../image/homesection.jpg');
   }
 
   .event-container {
