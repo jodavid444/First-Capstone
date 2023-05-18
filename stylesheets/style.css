@@ -235,7 +235,7 @@ span {
   .event {
     background: var(--tetiary-color);
     padding: 5vh 6px 30px 6px;
-    background-image: url('../image/homesection.jpg');
+    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/mission.png);
   }
 
   .event-sub-container {
@@ -365,7 +365,7 @@ span {
     padding-right: 20px;
     padding-bottom: 30px;
     height: 100%;
-    background-image: url('../image/homesection.jpg');
+    background-image: url('https://amrit131.github.io/Capstone-project/assets/images/testimonials/checkerboard.svg');
     background-repeat: no-repeat;
     background-size: 70%;
     background-position-x: -15%;
@@ -699,6 +699,7 @@ span {
   .event {
     background: var(--tetiary-color);
     padding: 10vh 6px 30px 6px;
+    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/mission.png);
   }
 
   .event-container {
@@ -934,7 +935,7 @@ span {
   .feature-img-container {
     margin-right: 15px;
     padding-bottom: 35px;
-    background-image: url('../image/homesection.jpg');
+    background-image: url(https://amrit131.github.io/Capstone-project/assets/images/testimonials/checkerboard.svg);
     width: 30%;
     height: 100%;
     background-repeat: no-repeat;
