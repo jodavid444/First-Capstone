@@ -179,7 +179,7 @@ span {
   /**** Mobile Headline Section ************/
 
   .headline-container {
-    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/homesection.jpg);
+    background-image: url('../image/homesection.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 9vh 25px 7vh;
@@ -495,7 +495,7 @@ span {
 
   /**** Desktop Headline Section  *********/
   .headline-container {
-    background-image: url(https://hiromataba.github.io/Capstone-Html-And-Css-Module/img/homesection.jpg);
+    background-image: url('../image/homesection.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 33vh 11vw 10vh;
