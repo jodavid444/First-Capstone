@@ -553,12 +553,11 @@ footer h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 900px;
+    height: 850px;
   }
 
   .home-section-header {
     color: #ec5242;
-    line-height: 80px;
   }
 
   .home-greeting {
@@ -576,11 +575,10 @@ footer h2 {
 
   .home-text {
     width: 70%;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 
   .home-text p {
-    margin: 15px;
     font-size: 18px;
     line-height: 1.5;
     color: #272a31;
@@ -590,7 +588,7 @@ footer h2 {
     color: #272a31;
     font-size: 35px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .home-adress {
