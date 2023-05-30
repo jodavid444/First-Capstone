@@ -22,12 +22,12 @@
 
 > This is my first capstone project at microvesre after rounding up the portal section, The greekle online global summits website holds a virtual event where speakers who are leading expert from all over the world share ideas on how to solve challanges from work using react, greekle has the unique experience to gather huge tech summits with 10'000+ attendees in different tech domains.
 
-## Desktop Preview
-<img src="image/desktop-home.png" alt="desktop-home">
+## Desktop Preview 👇
+<img src="./img/Desktop-image.PNG" alt="desktop preview image">
 
 
-## Mobile Preview
-<img src="image/Screenshot 2023-05-08 191322.png" alt="">
+## Mobile Preview 👇
+<img src="./img/mobile-preview.PNG" alt="mobile preview image">
 
 ## Learning objectives
 
@@ -78,6 +78,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 [Live Demo Link](https://jodavid444.github.io/First-Capstone/)
+
 
 [Video Presentation Link](https://www.loom.com/share/d275247b262b46d4ad13709338226729)
 
