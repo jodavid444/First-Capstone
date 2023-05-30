@@ -1,165 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--------------Font Awesome------------------->
-    <script src="https://kit.fontawesome.com/e2597287a1.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">        
-    <!--------------Fav Icon------------------------>
-    <link rel="shortcut icon" href="images/icons8-react-native-144.png" type="image/x-icon">
-    <!--------------Styles Files------------------->
-    <link rel="stylesheet" href="stylesheets/about.css">
-    <title>Greekle React Global Online Summits</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greeekle React Global Summits</title>
+    <link rel="stylesheet" href="./css/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header>
-      <!-----Desktop Primary Nav-------------->
-      <div class="desktop-nav-container">
-        <div class="desktop-nav-bar">
-            <img src="images/facebook.png" alt="facebook-img">
-            <img src="images/twitter.png" alt="twitter-img">
-            <ul class="desktop-ul">
-                <li>English</li>
-                <li>My Page</li>
-                <li>Logout</li>
-            </ul>
-        </div>
-    </div>
-  <div class="main-header">
-    <nav class="nav-bar">
-        <div class="react">
-            <a href="index.html"> <img class="logo-img" src="images/icons8-react-native-144.png" alt=""> </a>
-        <span>React</span>
-        </div>
-        <ul class="mobile-ul">
-            <li>
-                <a class="mobile-links c" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="mobile-links" href="about.html">Program</a>
-            </li>
-            <li>
-                <a class="mobile-links" href="about.html">Join</a>
-            </li>
-            <li>
-                <a class="mobile-links" href="about.html">Event</a>
-            </li>
-            <li>
-                <a class="mobile-links b" href="about.html">Partners</a>
-            </li>
+      <div class="top-navbar">
+        <ul>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My page</a></li>
+          <li><a href="#"> Logout</a></li>
         </ul>
-            <div class="harmburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-    </nav>
-  </div>
+      </div>
+
+      <div class="main-navbar">
+        <div class="logo">
+          <a href="#"><img class="logo-img" src="./img/icons8-react-native-144.png" alt="react logo" /></a>
+          <a class="logo-text" href="#">React</a>
+        </div>
+        <nav class="navbar">
+          <div class="hamburger">
+            <img src="./img/Hamburger_icon.svg.png" alt="Menu Hamburger" />
+          </div>
+          <ul class="nav-links">
+            <li class="close-menu-btn">
+              <button type="submit">
+                <span>&times;</span>
+              </button>
+            </li>
+            <li><a id="current" href="index.html" >Home</a></li>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">Programs</a></li>
+            <li id="consul-lg"><a href="#">Partners</a></li>
+          </ul>
+        </nav>
+      </div>
+
     </header>
-<main id="main">
-      <!----------- Headline Section -------------->
-    <section class="headline-section">
-        <div class="headline-container">
-            <h1 class="headline-subtitle">GREEKLE REACT GLOBAL SUMMITS CONTENT 2022</h1>
-            <p class="headline-description">
-                The greekle online global summits is a virtual event where speakers who are leading expert from all over the world share ideas on how to solve challanges from work using react, geekle has the unique experience to gather huge tech summits with 10'000+ attendees in different tech domains. now we hope to make something the world has never seen before for the React Community.
-            </p>
-            <p class="more-info">Please contact us via email for any further questions about React Global Summits</p>
-            <p> <span class="about-mail">reactonlinesummits2022@gmail.com</spa</p>
+    <main>
+      <section class="about-section">
+        <div class="about-wrapper">
+        <div class="about-section-header">
+          <h1 class="about-info">greekle react global content 2022</h1>
         </div>
-    </section>
-        <!--------- About Logo Section -------------->
-        <section class="about-logo">
-            <div class="about-logo-container">
-                <div class="about-logo-title">
-                    <h3> Greekle React Global Online Summits Logo 2022</h3>
-                </div>
-                <div class="about-logo-container-hr">
-                    <hr class="about-logo-hr">
-                </div>
-                <div class="about-logo-description">
-                    <p>
-                        React is a popular free 
-                        and open-source front end Javascript library that is used for building UI 
-                        components and user interfaces. It was created by Facebook and is still 
-                        maintained by them along with an 
-                        ever growing community of companies and individual developers.
-                    </p>
-                </div>
-                <div class="main-logo-container">
-                    <img src="images/icons8-react-native-144.png" alt="" class="main-logo">
-                </div>
-                <hr class="about-sub-logo">
-            </div>
-        </section>
-         <!----- Past Commits Section ----------------->
-   <section class="past-commits">
-        <div class="past-commits-container">
-            <div class="past-commits-title">
-                <h2>See Past Greekle React Global Summits</h2>
-            </div>
-            <div class="past-commits-hr-container">
-                <hr class="past-commits-hr">
-            </div>
-            <div class="past-commits-description-container">
-                <p class="past-commits-description">
-                    Take a look at the previous event that was sponsored by geekle and held virtually by react global summits agencies.
-                </p>
-            </div>
+        <div class="about-text">
+          <p>
+            The greekle online global summits is a virtual event where speakers who are leading expert from all over the world share ideas on how to solve challanges from work using react, geekle has the unique experience to gather huge tech summits with 10'000+ attendees in different tech domains. now we hope to make something the world has never seen before for the React Community.
+          </p>
         </div>
-        <div class="past-commits-sub-container">
-            <div class="past-commits-flex">
-                <iframe class="mobile_video_view" width="100%" height="270" src="https://www.youtube.com/embed/0HhWIvPhbu0" title="React Global Online Summit 2021 - Junior Track" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="past-commits-flex">
-                <iframe  class="desktop_video_view" width="100%" height="270" src="https://www.youtube.com/embed/2fgBKDT1j8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+
+        <div class="about-contact">
+          <p>Please contact us via email for any further questions about React Global Summits
+          </p>
+          <a href="#" class="about-adress">
+            reatglobalsummits2022@gmail.com
+          </a>
         </div>
-    </section>
-     <!-------- Partners Section ------------------>
-    <section class="partners" id="partners">
-        <div class="partners-container">
-        <div class="partners-sub-container">
-            <div class="partners-title">
-                <h2>Partners</h2>
-                <div class="partners-hr-container">
-                    <hr class="partners-hr">
-                </div>
-            </div>
+      </div>
+      </section>
+      <section class="about-details">
+        <div class="about-details-wrapper">
+          <h2 class="about-details-title">Greekle React Global Online Summits Logo 2022</h2>
+          <p>The logo of react was created by Jordan Walke a software engineer working at facebook, in 2011 to 2012 </p>
         </div>
-        <div class="partners-flex-container">
-            <div class="partners-flex">
-                <img class="partners-img" src="images/ag-grid_dark back.webp" alt="partners-img">
-                <img class="partners-img" src="images/Toptal_dark back.webp" alt="">
-            </div>
-            <div class="partners-flex">
-                <img class="partners-img" src="images/rangle-white.webp" alt="partners-img">
-                <img class="partners-img" src="images/VF_Logo_Horizontal_RGB_WHITE.webp" alt="">
-            </div>
+
+        <div class="about-details-img">
+          <img src="./img/icons8-react-native-144.png" alt=" Global ">
         </div>
+      </section>
+      
+      <div class="about-middle-page">
+        <div class="about-middle-page-wrapper">
+          <h2>See the Past Greekle React Global Summits</h2>
+          <p>Take a look at the previous event that was sponsored by geekle and held virtually by react global summits agencies.
+          </p>
         </div>
-    </section>
-    <!------ Footer Section -------------->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-flex">
-                <div class="footer-item">
-                    <img class="footer-img" src="images/icons8-react-native-144.png" alt="footer-img">
-                    <span class="footer-span">React</span>
-                </div>
-                <div class="footer-style">
-                <p> © 2022 React Global Online Summits </p>
-                </div>
-            </div>
+      </div>
+
+      <div class="about-images">
+        <div class="about-images-img">
+          <div class="about-img-pic">
+            <iframe  class="desktop_video_view" width="100%" height="270" src="https://www.youtube.com/embed/2fgBKDT1j8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
-    </footer>   
-</main>
-<script src="js files/app.js"></script>
-<script src="js files/script.js"></script>
-</body>
+        <div class="about-images-img">
+          <div class="about-img-pic"><iframe class="mobile_video_view" width="100%" height="270" src="https://www.youtube.com/embed/0HhWIvPhbu0" title="React Global Online Summit 2021 - Junior Track" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-bottom">
+          <div class="footer-bottom-img">
+            <a href="#"><img class="logo-img" src="./img/icons8-react-native-144.png" alt="react logo" /></a>
+            <a class="logo-text footer-text" href="#">React</a>
+          </div>
+          <div>
+            <p>&copy; 2022 Key. All Right Reserved | Design by 🤍 Joseph David</p>
+          </div>
+        </div>
+      </footer>
+      
+    </main>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
 </html>
