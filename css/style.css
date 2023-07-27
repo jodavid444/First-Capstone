@@ -490,7 +490,8 @@ footer h2 {
   }
 
   .main-navbar {
-    justify-content: space-around;
+    justify-content: space-between;
+    /* width: 80%; */
     background-color: white;
     box-shadow: 0 4px 2px -2px rgb(191, 189, 189);
   }
@@ -501,6 +502,7 @@ footer h2 {
 
   .nav-links {
     display: flex;
+    margin-right: 80px;
   }
 
   .menu-links {
@@ -530,6 +532,7 @@ footer h2 {
     align-items: center;
     justify-content: center;
     width: 100px;
+    margin-left: 110px;
   }
 
   .logo img {
@@ -545,8 +548,8 @@ footer h2 {
   }
 
   .home-wrapper {
-    width: 80%;
-    margin: 0 150px;
+    width: 100%;
+    margin: 0 100px;
   }
 
   .home-section {
